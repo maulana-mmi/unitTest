@@ -36,7 +36,7 @@ class calculatorTest {
 	@DisplayName("1 / 1 = 1")
 	void dividesTwoNumbers() {
 		calculator calculator = new calculator();
-		assertEquals(1, calculator.divide(1, 1), "1 / 1 should equal 1");
+		assertEquals(1, calculator.divide(1, 1, "1 / 1 should equal 1");
 	}
 
 	@ParameterizedTest(name = "{0} / {1} = {2}")
